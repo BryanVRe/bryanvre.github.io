@@ -15,6 +15,11 @@ import { InterestsComponent } from './interests/interests.component';
     AppComponent,
     HeaderComponent,
     WorkExperienceComponent,
+    EducationComponent,
+    SkillComponent,
+    AyCComponent,
+    LanguagesComponent,
+    InterestsComponent
 
   ],
   imports: [
