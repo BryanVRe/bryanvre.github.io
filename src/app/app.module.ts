@@ -6,12 +6,13 @@ import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { InterestsComponent } from './interests/interests.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     WorkExperienceComponent,
-    InterestsComponent
+
   ],
   imports: [
     BrowserModule
