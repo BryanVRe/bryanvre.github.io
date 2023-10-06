@@ -1,8 +1,10 @@
 <h3>Intereses</h3>
-<ul *ngFor="let In of interests">
-    <li>
-     <tr>
-     <td>{{In.nombre}}</td>  
-   </tr>
- </li>
- </ul>
+<ul>
+  <li *ngFor="let In of interests">
+    <table>
+      <tr>
+        <td>{{ In.nombre }}</td>
+      </tr>
+    </table>
+  </li>
+</ul>

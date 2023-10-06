@@ -34,10 +34,24 @@ export class AyCComponent implements OnInit {
       descripcion:"participar con un tutor en algún equipo de arquitectura.", 
       
     };
+    let a4 = {
+      nombreAC: "Pandas",
+      fecha: "2023",
+      descripcion: "Curso de Pandas en Kaggle",
+      direccionWeb: "https://raw.githubusercontent.com/BryanVRe/curses/master/curso-pandas/Bryan%20Valerio%20Reyes%20-%20Pandas.png"
+    };
+    let a5 = {
+      nombreAC: "Python",
+      fecha: "2023",
+      descripcion: "Curso de Python en Kaggle",
+      direccionWeb: "https://raw.githubusercontent.com/BryanVRe/curses/master/curso-python/Bryan%20Valerio%20Reyes%20-%20Python.png"
+    };
     this.ayc.push(a);
     this.ayc.push(a1);
     this.ayc.push(a2);
     this.ayc.push(a3);
+    this.ayc.push(a4);
+    this.ayc.push(a5);
   }
 
 }

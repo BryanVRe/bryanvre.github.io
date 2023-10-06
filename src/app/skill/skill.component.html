@@ -1,10 +1,12 @@
 <h3>Habilidades y Competencias</h3>
+<ul>
+  <li *ngFor="let sk of skill">
+    <table>
+      <tr>
+        <td>{{ sk.element }}</td>
+      </tr>
+    </table>
+    <hr width="50%" align="right" size="20" color="#FF0000">
+  </li>
+</ul>
 
-<ul *ngFor="let sk of skill">
-    <li>
-     <tr>
-     <td>{{sk.element}}</td>  
-     
- </tr>
- <hr width=50%  align="right"  size=20 color="#FF0000">
-    

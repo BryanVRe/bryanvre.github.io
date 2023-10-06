@@ -1,10 +1,12 @@
-<h3>Logros y Certificados </h3>
-<ul *ngFor="let a of ayc">
-    <li>
-     <tr>
-     <td>{{a.nombreAC}}</td>  
-     <td>{{a.fecha}}</td>
- </tr>
- <tr>
-     <td>{{ a.descripcion}}</td>
- </tr>
+<h3>Logros y Certificados</h3>
+
+<ul>
+  <li *ngFor="let item of ayc">
+    <b>{{ item.nombreAC }}</b><br>
+    Fecha: {{ item.fecha }}<br>
+    Descripción: {{ item.descripcion }}
+    <ng-container *ngIf="item.nombreAC === 'Pandas' || item.nombreAC === 'Python'">
+      <a [href]="item.direccionWeb" target="_blank">Enlace a {{ item.nombreAC }}</a>
+    </ng-container>
+  </li>
+</ul>

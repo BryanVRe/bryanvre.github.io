@@ -1,0 +1,94 @@
+/* Estilo para el encabezado */
+app-header {
+    text-align: center;
+    background-color: #2cacbd; /* Azul profundo */
+    color: #030202;
+    padding: 20px;
+  }
+  
+  /* Estilo para las secciones */
+  table {
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #d1cfcc; /* Fondo gris claro */
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para el título de la sección */
+  td {
+    padding: 20px;
+    vertical-align: top;
+  }
+  
+  /* Estilo para el contenido de la sección */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Texto oscuro */
+  }
+  
+  /* Estilo para las listas de elementos (por ejemplo, educación, intereses, idiomas, habilidades) */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo para los elementos de la lista */
+  li {
+    margin-bottom: 10px;
+    color: #555; /* Texto gris */
+  }
+  
+  /* Estilo para las descripciones en la sección de experiencia laboral */
+  .app-work-experience .description {
+    font-style: italic;
+  }
+  
+  /* Estilo para las etiquetas de habilidades */
+  .app-skill .skill-label {
+    font-weight: bold;
+    color: #0077b6; /* Azul profundo */
+  }
+  
+  /* Estilo para las barras de habilidades */
+  .app-skill .skill-bar {
+    width: 100%;
+    background-color: #ccc;
+    height: 10px;
+    margin-top: 5px;
+  }
+  
+  /* Estilo para la parte coloreada de las barras de habilidades */
+  .app-skill .skill-bar-fill {
+    width: 70%; /* Ajusta el ancho para reflejar el nivel de habilidad */
+    background-color: #0077b6; /* Azul profundo */
+    height: 100%;
+  }
+  
+  /* Estilo para la sección de idiomas */
+  .app-languages .language {
+    font-weight: bold;
+    color: #0077b6; /* Azul profundo */
+  }
+  
+  /* Estilo para las habilidades en la sección de intereses */
+  .app-interests .interest {
+    font-style: italic;
+    color: #a1ad72; /* Texto gris */
+  }
+  
+  /* Estilo para las fechas en la sección de experiencia laboral y educación */
+  .date {
+    font-weight: bold;
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    text-align: center;
+    background-color: #0077b6; /* Azul profundo */
+    color: #fff;
+    padding: 10px;
+  }

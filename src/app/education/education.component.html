@@ -1,14 +1,16 @@
-<h3>Educacion</h3>
-<ul *ngFor="let esc of education">
-   <li>
-    <tr>
-    <td>{{esc.fecha}}</td></tr>
-    <tr><td>{{esc.Escuela}}</td></tr>  
-<tr><td>{{esc.ubicacion}}</td></tr>
-<tr>
-   
-
-
-
-</li>
+<h3>Educación</h3>
+<ul>
+  <li *ngFor="let esc of education">
+    <table>
+      <tr>
+        <td>{{ esc.fecha }}</td>
+      </tr>
+      <tr>
+        <td>{{ esc.Escuela }}</td>
+      </tr>
+      <tr>
+        <td>{{ esc.ubicacion }}</td>
+      </tr>
+    </table>
+  </li>
 </ul>
